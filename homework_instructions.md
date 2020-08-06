@@ -65,7 +65,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 #### DB Setup
 
-1. Inside your `burger` directory, create a folder named `db`.
+<!-- 1. Inside your `burger` directory, create a folder named `db`.
 
 2. In the `db` folder, create a file named `schema.sql`. Write SQL queries this file that do the following:
 
@@ -74,13 +74,13 @@ Having an active and healthy commit history on GitHub is important for your futu
    * Create a `burgers` table with these fields:
      * **id**: an auto incrementing int that serves as the primary key.
      * **burger_name**: a string.
-     * **devoured**: a boolean.
+     * **devoured**: a boolean. -->
 
-3. Still in the `db` folder, create a `seeds.sql` file. In this file, write insert queries to populate the `burgers` table with at least three entries.
+<!-- 3. Still in the `db` folder, create a `seeds.sql` file. In this file, write insert queries to populate the `burgers` table with at least three entries. -->
 
-4. Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line
+<!-- 4. Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line --> 
 
-5. Now you're going to run these SQL files.
+<!-- 5. Now you're going to run these SQL files.
 
    * Make sure you're in the `db` folder of your app.
 
@@ -90,13 +90,13 @@ Having an active and healthy commit history on GitHub is important for your futu
 
    * Now insert the entries you defined in `seeds.sql` by running the file: `source seeds.sql`.
 
-   * Close out of the MySQL command line tool: `exit`.
+   * Close out of the MySQL command line tool: `exit`. -->
 
 #### Config Setup
 
-1. Inside your `burger` directory, create a folder named `config`.
+<!-- 1. Inside your `burger` directory, create a folder named `config`. -->
 
-2. Create a `connection.js` file inside `config` directory.
+<!-- 2. Create a `connection.js` file inside `config` directory. -->
 
    * Inside the `connection.js` file, setup the code to connect Node to MySQL.
 
