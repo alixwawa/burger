@@ -39,7 +39,8 @@ $(function() {
         var x = document.forms["myForm"]["name"].value;
         if (x == "") {
           alert("Can't enter an empty field!");
-            return false;
+          return false;
+          
           }
         // Reload the page to get the updated list
         location.reload();
