@@ -11,6 +11,10 @@ Run:
 
                 npm i
 
+## Demonstration
+
+![GIF](GIF/burger.gif)
+
 
 ## Repository
 
